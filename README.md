@@ -1,8 +1,9 @@
+# fork of https://hg.sr.ht/~scoopta/glpaper
+Compilation is broken on the original because of API changes in wayland protocols, fixed in this repo, build steps are not interfered with.
+Not really thinking of adding any extra functionality, maybe somewhat laterer, if i find it necessary.
 
 # GLPaper
 GLPaper is a wallpaper program for wlroots based wayland compositors such as sway that allows you to render glsl shaders as your wallpaper
-
-[![builds.sr.ht status](https://builds.sr.ht/~scoopta/glpaper.svg)](https://builds.sr.ht/~scoopta/glpaper?)
 ## Dependencies
 	libwayland-dev
 	libegl-dev
@@ -18,10 +19,6 @@ GLPaper is a wallpaper program for wlroots based wayland compositors such as swa
 ## Uninstalling
 	sudo ninja -C build uninstall
 ## Bug Reports
-Please file bug reports at https://todo.sr.ht/~scoopta/glpaper
+You can bug report into issues section of this repo.
 ## Contributing
-Please submit patches to https://lists.sr.ht/~scoopta/glpaper
-
-You can find documentation here https://man.sr.ht/hg.sr.ht/email.md
-## Packages
-If you're on Arch there's an unofficial AUR package https://aur.archlinux.org/packages/glpaper-hg/
+I do accept pull requests.
